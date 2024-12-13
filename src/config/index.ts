@@ -15,12 +15,7 @@ export const BASE_BSC_SCAN_URLS = {
 }
 
 // COLA_PER_BLOCK details
-// 40 CLIP is minted per block
-// 20 CLIP per block is sent to Burn pool (A farm just for burning cake)
-// 10 CLIP per block goes to CLIP syrup pool
-// 9 CLIP per block goes to Yield farms and lottery
-// COLA_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
-// CLIP/Block in src/views/Home/components/CakeStats.tsx = 19 (40 - Amount sent to burn pool)
+
 export const COLA_PER_BLOCK = new BigNumber(4)
 export const BLOCKS_PER_YEAR = new BigNumber((60 / BSC_BLOCK_TIME) * 60 * 24 * 365) // 10512000
 export const COLA_PER_YEAR = COLA_PER_BLOCK.times(BLOCKS_PER_YEAR)
