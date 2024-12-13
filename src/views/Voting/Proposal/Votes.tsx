@@ -73,7 +73,7 @@ const Votes: React.FC<VotesProps> = ({ votes }) => {
               </Text>
             </VotingPowerColumn>
           </Row>
-          {displayVotes.map((vote) => {
+          {displayVotes.map((vote : any) => {
             const isVoter = account && vote.voter.toLowerCase() === account.toLowerCase()
             return <VoteRow key={vote.id} vote={vote} isVoter={isVoter} />
           })}

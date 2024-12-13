@@ -184,7 +184,7 @@ const CreateProposal = () => {
                 name="body"
                 onTextChange={handleEasyMdeChange}
                 value={body}
-                options={options}
+                // options={options}
                 required
               />
               {formErrors.body && fieldsState.body && <FormErrors errors={formErrors.body} />}
