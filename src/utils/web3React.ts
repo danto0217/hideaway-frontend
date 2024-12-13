@@ -6,13 +6,15 @@ import { ethers } from 'ethers'
 import getNodeUrl from './getRpcUrl'
 
 const POLLING_INTERVAL = 12000
-const rpcUrl = getNodeUrl()
+const rpcUrl : any = getNodeUrl()
 const chainId = parseInt(process.env.REACT_APP_CHAIN_ID, 10)
 
 const injected = new InjectedConnector({ supportedChainIds: [chainId] })
 
 const walletconnect = new WalletConnectConnector({
-  rpc: { [chainId]: rpcUrl },
+  rpc: {
+    [chainId]: rpcUrl 
+  },
   bridge: 'https://pancakeswap.bridge.walletconnect.org/',
   qrcode: true,
 })

@@ -57,8 +57,8 @@ export const useGetIsClaimable = (epoch) => {
  */
 export const useGetEarliestEpoch = () => {
   return useSelector((state: State) => {
-    const earliestRound = minBy(Object.values(state.predictions.rounds), 'epoch')
-    return earliestRound?.epoch
+    const earliestRound : any = minBy(Object.values(state.predictions.rounds), 'epoch')
+    return earliestRound?.epoch  
   })
 }
 
@@ -91,7 +91,7 @@ export const useGetTotalIntervalBlocks = () => {
 export const useGetCurrentRound = () => {
   const currentEpoch = useGetCurrentEpoch()
   const rounds = useGetSortedRounds()
-  return rounds.find((round) => round.epoch === currentEpoch)
+  return rounds.find((round : any) => round.epoch === currentEpoch)
 }
 
 export const useGetPredictionsStatus = () => {

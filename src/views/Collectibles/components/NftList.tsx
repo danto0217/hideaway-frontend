@@ -31,7 +31,7 @@ const NftList = () => {
 
   return (
     <NftGrid>
-      {orderBy(nfts, 'sortOrder').map((nft) => {
+      {orderBy(nfts, 'sortOrder').map((nft : any) => {
         const Card = nftComponents[nft.identifier] || NftCard
 
         return (
