@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'hideaway-dex-sdk'
+import { ChainId, Token } from '@clipdex/clip-dex-sdk'
 
 export const COLA: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0x04d8aA2e6EAa7BC8e26F415c2DB9DEF941A52Fe5', 18, 'CLIP', 'CLIP Token'),

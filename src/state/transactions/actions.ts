@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 
 export interface SerializableTransactionReceipt {
   to: string

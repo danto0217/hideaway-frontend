@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'hideaway-dex-sdk'
+import { Currency, ETHER, Token } from '@clipdex/clip-dex-sdk'
 import { ZilionixxIcon } from 'hideaway-dex-uikit'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'

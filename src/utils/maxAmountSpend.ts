@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'hideaway-dex-sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@clipdex/clip-dex-sdk'
 import { MIN_BNB } from '../config/constants'
 
 /**

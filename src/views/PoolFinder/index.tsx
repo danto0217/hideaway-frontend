@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import { Currency, ETHER, JSBI, TokenAmount } from 'hideaway-dex-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@clipdex/clip-dex-sdk'
 import { Button, ChevronDownIcon, Text, AddIcon, useModal, CardBody } from 'hideaway-dex-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'

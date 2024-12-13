@@ -1,4 +1,4 @@
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

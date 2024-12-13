@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { CurrencyAmount, JSBI, Token, Trade } from 'hideaway-dex-sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from '@clipdex/clip-dex-sdk'
 import { Button, Text, ArrowDownIcon, Box, useModal } from 'hideaway-dex-uikit'
 
 import { useIsTransactionUnsupported } from 'hooks/Trades'

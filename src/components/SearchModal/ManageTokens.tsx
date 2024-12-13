@@ -1,5 +1,5 @@
 import React, { useRef, RefObject, useCallback, useState, useMemo } from 'react'
-import { Token } from 'hideaway-dex-sdk'
+import { Token } from '@clipdex/clip-dex-sdk'
 import { Text, Button, CloseIcon, IconButton, LinkExternal, Input, Link } from 'hideaway-dex-uikit'
 import styled from 'styled-components'
 import Row, { RowBetween, RowFixed } from 'components/Layout/Row'

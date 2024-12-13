@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { Trade, TradeType } from 'hideaway-dex-sdk'
+import { Trade, TradeType } from '@clipdex/clip-dex-sdk'
 import { Button, Text, AutoRenewIcon } from 'hideaway-dex-uikit'
 import { Field } from 'state/swap/actions'
 import {

@@ -1,4 +1,4 @@
-import { Token } from 'hideaway-dex-sdk'
+import { Token } from '@clipdex/clip-dex-sdk'
 import { SerializedToken } from '../actions'
 
 export function serializeToken(token: Token): SerializedToken {

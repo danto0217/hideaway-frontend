@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'hideaway-dex-sdk'
+import { Currency, ETHER, Token } from '@clipdex/clip-dex-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'BNB'

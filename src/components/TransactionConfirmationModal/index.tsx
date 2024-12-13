@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { ChainId, Currency, Token } from 'hideaway-dex-sdk'
+import { ChainId, Currency, Token } from '@clipdex/clip-dex-sdk'
 import styled from 'styled-components'
 import {
   Button,

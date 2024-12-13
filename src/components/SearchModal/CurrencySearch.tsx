@@ -1,6 +1,6 @@
 import React, { KeyboardEvent, RefObject, useCallback, useMemo, useRef, useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { Currency, ETHER, Token } from 'hideaway-dex-sdk'
+import { Currency, ETHER, Token } from '@clipdex/clip-dex-sdk'
 import { Text, Input, Box } from 'hideaway-dex-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { FixedSizeList } from 'react-window'

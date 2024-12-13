@@ -1,4 +1,4 @@
-import { Pair, Token } from 'hideaway-dex-sdk'
+import { Pair, Token } from '@clipdex/clip-dex-sdk'
 import flatMap from 'lodash/flatMap'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

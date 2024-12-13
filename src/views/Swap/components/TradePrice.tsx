@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Price } from 'hideaway-dex-sdk'
+import { Price } from '@clipdex/clip-dex-sdk'
 import { Text, AutoRenewIcon } from 'hideaway-dex-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 

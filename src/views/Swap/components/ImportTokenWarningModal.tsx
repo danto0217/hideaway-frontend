@@ -1,5 +1,5 @@
 import React from 'react'
-import { Token } from 'hideaway-dex-sdk'
+import { Token } from '@clipdex/clip-dex-sdk'
 import { Modal, InjectedModalProps } from 'hideaway-dex-uikit'
 import ImportToken from 'components/SearchModal/ImportToken'
 

@@ -1,4 +1,4 @@
-import { TokenAmount, Pair, Currency } from 'hideaway-dex-sdk'
+import { TokenAmount, Pair, Currency } from '@clipdex/clip-dex-sdk'
 import { useMemo } from 'react'
 import abi from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'

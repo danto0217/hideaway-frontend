@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Token } from 'hideaway-dex-sdk'
+import { Token } from '@clipdex/clip-dex-sdk'
 import { ButtonMenu, ButtonMenuItem, ModalBody } from 'hideaway-dex-uikit'
 // import styled from 'styled-components'
 import { TokenList } from '@zilionixx/zilionixx-token-lists'

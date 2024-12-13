@@ -1,5 +1,5 @@
 import React, { CSSProperties } from 'react'
-import { Token } from 'hideaway-dex-sdk'
+import { Token } from '@clipdex/clip-dex-sdk'
 import { Button, Text, CheckmarkCircleIcon } from 'hideaway-dex-uikit'
 import { AutoRow, RowFixed } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'

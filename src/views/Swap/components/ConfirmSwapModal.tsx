@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo } from 'react'
-import { currencyEquals, Trade } from 'hideaway-dex-sdk'
+import { currencyEquals, Trade } from '@clipdex/clip-dex-sdk'
 import { InjectedModalProps } from 'hideaway-dex-uikit'
 import { useTranslation } from 'contexts/Localization'
 import TransactionConfirmationModal, {

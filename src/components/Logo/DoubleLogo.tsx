@@ -1,4 +1,4 @@
-import { Currency } from 'hideaway-dex-sdk'
+import { Currency } from '@clipdex/clip-dex-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from './CurrencyLogo'

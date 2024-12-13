@@ -1,4 +1,4 @@
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import BigNumber from 'bignumber.js/bignumber'
 import { BIG_TEN } from 'utils/bigNumber'
 

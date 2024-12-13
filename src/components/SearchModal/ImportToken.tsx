@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Token, Currency } from 'hideaway-dex-sdk'
+import { Token, Currency } from '@clipdex/clip-dex-sdk'
 import {
   Button,
   Text,

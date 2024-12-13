@@ -1,5 +1,5 @@
 import React, { Fragment, memo } from 'react'
-import { Trade } from 'hideaway-dex-sdk'
+import { Trade } from '@clipdex/clip-dex-sdk'
 import { Text, Flex, ChevronRightIcon } from 'hideaway-dex-uikit'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Token } from 'hideaway-dex-sdk'
+import { Currency, Token } from '@clipdex/clip-dex-sdk'
 import { Button, Text, Modal, useModal, InjectedModalProps, Link } from 'hideaway-dex-uikit'
 import styled from 'styled-components'
 import { AutoRow } from 'components/Layout/Row'

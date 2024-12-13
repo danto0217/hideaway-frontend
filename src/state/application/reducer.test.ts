@@ -1,4 +1,4 @@
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import { createStore, Store } from 'redux'
 import { updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

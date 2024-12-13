@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'hideaway-dex-sdk'
+import { Token, TokenAmount } from '@clipdex/clip-dex-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

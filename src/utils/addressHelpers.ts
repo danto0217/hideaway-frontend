@@ -1,4 +1,4 @@
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import addresses from 'config/constants/contracts'
 import tokens from 'config/constants/tokens'
 import { Address } from 'config/constants/types'

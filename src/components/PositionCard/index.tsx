@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { JSBI, Pair, Percent } from 'hideaway-dex-sdk'
+import { JSBI, Pair, Percent } from '@clipdex/clip-dex-sdk'
 import {
   Button,
   Text,

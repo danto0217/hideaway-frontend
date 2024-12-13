@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'hideaway-dex-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@clipdex/clip-dex-sdk'
 import React from 'react'
 import { Button, Text } from 'hideaway-dex-uikit'
 import { useTranslation } from 'contexts/Localization'

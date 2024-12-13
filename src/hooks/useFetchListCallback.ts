@@ -1,5 +1,5 @@
 import { nanoid } from '@reduxjs/toolkit'
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import { TokenList } from '@zilionixx/zilionixx-token-lists'
 import { useCallback } from 'react'
 import { useDispatch } from 'react-redux'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Currency, Percent, Price } from 'hideaway-dex-sdk'
+import { Currency, Percent, Price } from '@clipdex/clip-dex-sdk'
 import { Text } from 'hideaway-dex-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from '../../components/Layout/Column'

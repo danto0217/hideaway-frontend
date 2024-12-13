@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Trade, TokenAmount, CurrencyAmount, ETHER } from 'hideaway-dex-sdk'
+import { Trade, TokenAmount, CurrencyAmount, ETHER } from '@clipdex/clip-dex-sdk'
 import { useCallback, useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { ROUTER_ADDRESS } from '../config/constants'

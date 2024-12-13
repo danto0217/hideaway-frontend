@@ -1,4 +1,4 @@
-import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from 'hideaway-dex-sdk'
+import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from '@clipdex/clip-dex-sdk'
 import { useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { BUSD, COLA } from '../config/constants/tokens'

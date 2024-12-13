@@ -1,4 +1,4 @@
-import { Percent } from 'hideaway-dex-sdk'
+import { Percent } from '@clipdex/clip-dex-sdk'
 import React from 'react'
 import { warningSeverity } from 'utils/prices'
 import { ONE_BIPS } from '../../../config/constants'

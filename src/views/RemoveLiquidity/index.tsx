@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, Percent, WETH } from 'hideaway-dex-sdk'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from '@clipdex/clip-dex-sdk'
 import {
   Button,
   Text,

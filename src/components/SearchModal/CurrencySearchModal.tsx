@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react'
-import { Currency, Token } from 'hideaway-dex-sdk'
+import { Currency, Token } from '@clipdex/clip-dex-sdk'
 import {
   ModalContainer,
   ModalHeader,

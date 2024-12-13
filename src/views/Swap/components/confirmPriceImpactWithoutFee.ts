@@ -1,4 +1,4 @@
-import { Percent } from 'hideaway-dex-sdk'
+import { Percent } from '@clipdex/clip-dex-sdk'
 import { ALLOWED_PRICE_IMPACT_HIGH, PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN } from '../../../config/constants'
 
 /**

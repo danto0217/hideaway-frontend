@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from 'hideaway-dex-sdk'
+import { Currency, CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from '@clipdex/clip-dex-sdk'
 import { useMemo } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import ERC20_INTERFACE from 'config/abi/erc20'

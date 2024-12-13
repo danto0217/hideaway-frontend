@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'hideaway-dex-sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@clipdex/clip-dex-sdk'
 import { computeTradePriceBreakdown } from 'utils/prices'
 
 describe('prices', () => {

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
-import { Pair } from 'hideaway-dex-sdk'
+import { Pair } from '@clipdex/clip-dex-sdk'
 import { Text, Flex, CardBody, Button } from 'hideaway-dex-uikit'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'contexts/Localization'

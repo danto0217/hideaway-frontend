@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'hideaway-dex-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@clipdex/clip-dex-sdk'
 import { BUSD, DAI, USDT, BTCB, COLA, WBNB, UST, ETH, USDC } from './tokens'
 
 export const ROUTER_ADDRESS = '0x8B8Ae0f1060AbB0b819C075ba7Fe69BE7bF4476c'

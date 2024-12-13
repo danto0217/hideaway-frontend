@@ -1,5 +1,5 @@
 import React from 'react'
-import { Currency, Pair } from 'hideaway-dex-sdk'
+import { Currency, Pair } from '@clipdex/clip-dex-sdk'
 import useTheme from 'hooks/useTheme'
 import { Button, ChevronDownIcon, Text, Flex } from 'hideaway-dex-uikit'
 import styled from 'styled-components'

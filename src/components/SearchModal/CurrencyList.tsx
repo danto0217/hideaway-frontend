@@ -1,5 +1,5 @@
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
-import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from 'hideaway-dex-sdk'
+import { Currency, CurrencyAmount, currencyEquals, ETHER, Token } from '@clipdex/clip-dex-sdk'
 import { Text } from 'hideaway-dex-uikit'
 import styled from 'styled-components'
 import { FixedSizeList } from 'react-window'

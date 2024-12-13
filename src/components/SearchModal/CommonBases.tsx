@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from 'hideaway-dex-sdk'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@clipdex/clip-dex-sdk'
 import { Text } from 'hideaway-dex-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'

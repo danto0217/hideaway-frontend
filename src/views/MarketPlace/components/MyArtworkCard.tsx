@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { Card, Button, useModal } from 'hideaway-dex-uikit'
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 
 import { Address } from 'config/constants/types'
 import addresses from 'config/constants/contracts'

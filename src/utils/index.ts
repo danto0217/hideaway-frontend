@@ -5,7 +5,7 @@ import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
 import abi from 'hideaway-dex-periphery/build/IClipDexRouter.json'
 
-import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from 'hideaway-dex-sdk'
+import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from '@clipdex/clip-dex-sdk'
 import { ROUTER_ADDRESS } from '../config/constants'
 import { BASE_BSC_SCAN_URLS } from '../config'
 import { TokenAddressMap } from '../state/lists/hooks'

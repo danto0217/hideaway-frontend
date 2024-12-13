@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { Trade, TradeType } from 'hideaway-dex-sdk'
+import { Trade, TradeType } from '@clipdex/clip-dex-sdk'
 import { Button, Text, ErrorIcon, ArrowDownIcon } from 'hideaway-dex-uikit'
 import { Field } from 'state/swap/actions'
 import { isAddress, shortenAddress } from 'utils'

@@ -12,7 +12,7 @@ import {
   ArrowForwardIcon,
   Flex,
 } from 'hideaway-dex-uikit'
-import { ChainId } from 'hideaway-dex-sdk'
+import { ChainId } from '@clipdex/clip-dex-sdk'
 import styled from 'styled-components'
 import FlexLayout from 'components/Layout/Flex'
 import Page from 'components/Layout/Page'
