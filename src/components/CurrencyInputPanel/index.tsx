@@ -85,7 +85,7 @@ const InputPanel = styled.div<{ hideInput?: boolean, id?: string }>`
   border-radius: 16px;
   color: rgb(125, 125, 125) !important;
   padding: 16px;
-  margin-top:  ${({ id }) => (id == "swap-currency-output" ? '-20px !important' : '0px')};
+  margin-top:  ${({ id }) => (id === "swap-currency-output" ? '-20px !important' : '0px')};
   border: ${({ theme }) => (theme.isDark ? '1px solid rgb(27, 27, 27);' : '1px solid rgb(249 249 249);')};
   `
 const Container = styled.div<{ hideInput: boolean }>`
